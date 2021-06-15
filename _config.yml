@@ -68,7 +68,7 @@ time_format: HH:mm:ss
 per_page: 5
 pagination_dir: page
 
-theme: next
+theme: jekyll-theme-minimal
 
 deploy:
   type: git
