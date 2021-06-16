@@ -1,10 +1,12 @@
 # Leslie J. Zhang
 
-- 👋 Hi, I’m @Lesliezj09
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m ***Leslie J. Zhang***
+- 🌱 I’m currently studying Economics in [***Department of Economics of Korea University***](http://econ.korea.ac.kr/econ/)
+- 💞️ I major in ***Economics of Development*** and ***International Trade***
+- 👀 I’m interested in ***Economics Growth, Human Capital, Education, Comparative Advantage***
+<!--- 💞️ I’m looking to collaborate on ...
+--->
+- 📫 You can reach me by ***Email***: `jianzhang@korea.ac.kr`
 
 <!---
 Lesliezj09/Lesliezj09 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
