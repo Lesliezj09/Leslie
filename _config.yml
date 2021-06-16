@@ -2,6 +2,18 @@ theme: jekyll-theme-minimal
 
 title: Leslie J. Zhang
 
+keywords: "Welcome, Leslie"
+
+
+index_generator:
+  per_page: 4  
+  order_by: -date
+
+archive_generator:
+  per_page: 12 
+  yearly: true  
+  monthly: true  
+  daily: false
 
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
