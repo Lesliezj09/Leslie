@@ -17,3 +17,19 @@ archive_generator:
 
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
+
+################
+theme_config:
+  
+custom_file_path:    
+  sidebar: source/_data/sidebar.swig    
+  footer: source/_data/footer.swig    
+  variable: source/_data/variables.styl    
+  style: source/_data/styles.styl
+
+sidebar:
+  position: left    
+  display: post    
+  padding: 18    
+  offset: 12    
+  onmobile: true
