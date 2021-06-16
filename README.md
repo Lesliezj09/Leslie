@@ -2,7 +2,7 @@
 
 - 👋 Hi, I’m ***Leslie J. Zhang***
 - 🌱 I’m currently studying Economics in [***Department of Economics of Korea University***](http://econ.korea.ac.kr/econ/)
-- 💞️ I major in ***Economics of Development*** and ***International Trade***
+- 💞️ I major in ***Economics of Development, International Trade*** and ***Labor Economics***
 - 👀 I’m interested in ***Economics Growth, Human Capital, Education, Comparative Advantage***
 <!--- 💞️ I’m looking to collaborate on ...
 --->
