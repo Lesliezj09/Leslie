@@ -14,7 +14,7 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ****
-# HTML Studying
+# HTML
 
 I'm Studying How to Create a HTML 👉 
 
