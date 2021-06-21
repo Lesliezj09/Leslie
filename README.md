@@ -13,11 +13,12 @@ Lesliezj09/Lesliezj09 is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
+****
 
 I'm learning how to create a html :point_right:
 
-[HTML Learning Note]( https://lesliezj09.github.io/HTML-Notes/)
-[HTML Test File](https://lesliezj09.github.io/lesliezh/)
+* [HTML Learning Note]( https://lesliezj09.github.io/HTML-Notes/)
+* [HTML Test File](https://lesliezj09.github.io/lesliezh/)
 
 
 # 王保保
