@@ -15,7 +15,7 @@ You can click the Preview link to take a look at your changes.
 
 ****
 
-I'm Learning How to Create a HTML :point_right:
+I'm Learning How to Create a HTML \:point_right:
 
 * [HTML Learning Note]( https://lesliezj09.github.io/HTML-Notes/)
 * [HTML Test File](https://lesliezj09.github.io/lesliezh/)
