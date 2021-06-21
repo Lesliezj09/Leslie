@@ -14,11 +14,11 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ****
-# HTML Learning
+# HTML Studying
 
-I'm Learning How to Create a HTML 👉 
+I'm Studying How to Create a HTML 👉 
 
-* [HTML Learning Note]( https://lesliezj09.github.io/HTML-Notes/)
+* [HTML Studying Note]( https://lesliezj09.github.io/HTML-Notes/)
 * [HTML Test File](https://lesliezj09.github.io/lesliezh/)
 
 ****
