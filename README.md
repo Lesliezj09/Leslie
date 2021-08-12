@@ -18,9 +18,26 @@ You can click the Preview link to take a look at your changes.
 
 I'm Studying How to Create a HTML 👉 
 
-* [HTML Studying Note](https://lesliezj09.github.io/Leslie/HTML-Notes/)
-* [HTML Test File](https://lesliezj09.github.io/Leslie/lesliezh/)
-* [GAMS Learn Note](https://lesliezj09.github.io/Leslie/gamslearn)
+* [HTML Studying Note](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md/)
+* [HTML Test File](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_html/)
+
+
+
+****
+# GAMS Software Studying
+
+I'm Studying How to use GAMS 👉 
+
+* [GAMS Learn Note](https://lesliezj09.github.io/Leslie/GAMS_Notes/)
+
+
+
+****
+# Stata Software Studying
+
+I'm Studying How to use Stata 👉 
+
+
 
 ****
 
