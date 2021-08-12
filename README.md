@@ -19,7 +19,7 @@ You can click the Preview link to take a look at your changes.
 
 
 * [HTML Studying Note](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/)
-  * PDF version can be downloaded  👉  [PDF](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/pdf)
+  * PDF version can be downloaded  👉  [PDF](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/htmllearn.pdf)
 * [HTML Test File](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_html/)
 
 
