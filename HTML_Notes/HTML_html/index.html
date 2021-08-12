@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如何用HTML创建网页</title>
+</head>
+
+<body>
+
+<h1>HTML标题与字体</h1>
+ <h1>title</h1>
+ <font size="6"> title</font>
+
+ <h2>title</h2>
+ <h3>title</h3>
+ <h4>title</h4>
+ <h5>title</h5>
+
+ <h6>title</h6>
+ <font size="1"> title</font>
+
+<hr/>
+
+<h1>HTML段落 </h>
+ <p>this is paragraph 1</p>
+ <p>this is paragraph 2</p>
+
+<hr>
+
+<font size="2">
+  <i>
+     <!-- i 代表斜体，b 代表加粗，<sub> </sub> 代表下标，<sup> </sup> 代表上标 -->
+     <p> 愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者的话。能做事的做事，能发声的发声。有一分热，发一份光，就令萤火虫一般，也可以在黑暗里发一点光，不必等候炬火。此后如竟没有炬火，我便是位的光。---《新青年》第六卷 </p>
+  </i>
+</font>
+
+
+<h1>HTML段落 空格/空行/断行</h1>
+ <p>
+ aaa
+   aaa
+     aaa
+
+ </p>
+
+ <p>
+ aaa    a        aaaa
+
+ aaaa
+ </p>
+
+ <p> aaaa<br/><br/>aaaaa  </p>
+
+<hr/>
+
+    
+    
+    
+    
+    
+<h1>图像链接</h1>
+
+<h2>排列图片和浮动图像</h2>
+
+    <p>图片测试<img src="aaa.png" alt="测试" width="15" height="15" align="top">结果</p>
+    <p>图片测试<img src="aaa.png" alt="测试" width="15" height="15" align="bottom">结果</p>
+    <p>图片测试<img src="aaa.png" alt="测试" width="15" height="15" align="middle">结果</p>
+
+    <p>图片测试<img src="aaa.png" alt="测试" width="15" height="15" style="float:left">记结</p>
+    <p>图片测试<img src="aaa.png" alt="测试" width="15" height="15">结果</p>
+
+<hr/>
+
+<h2>图像链接</h2>
+
+    <a href="https://lesliezj09.github.io/Leslie/">
+        <img border=“30” src="aaa.png" alt="测试" width="40" height="40">
+        <br/>
+        <img border=“30” src="aaa.png" alt="测试" width="80" height="80">
+    </a>
+
+<hr/>
+
+<h2>图像映像</h2>
+
+  <img src="aaa.png" alt="图像映像" width="200" height="200" usemap="#travel">
+  <map name="travel">
+      <area shape="circle" coords="100,50,40" href="aaa1.JPG" alt="sky">
+      <area shape="rect" coords="150,150,200,200" href="aaa2.JPG" alt="ocean and land">
+      <area shape="circle" coords="90,180,40" href="aaa3.JPG" alt="baby">
+      <!--
+          shape：链接(点击)区域的形状
+          coords：链接区域在图片中的坐标(以左上角为坐标中心，像素为单位)
+          rect：矩形
+          circle：圆形
+          poly：多边形
+    -->
+  </map>
+
+
+<hr/>
+
+  <a href="https://www.runoob.com/html/html-basic.html">如何使用链接</a>
+  <a href="aaa.pdf" target="_blank"> pdf </a>
+  <a href="aaa.docx" target="_blank"> docx </a>
+  <!--docx时会直接下载，而pdf时会在新页面直接打开-->
+  <a href="aaa.png" target="_blank"> image </a>
+    
+    <hr/>
+    
+  <embed width="800" height="600" src="aaa.pdf"> </embed>
+  <!--会直接在当前页面以展示窗口的形式引入-->
+  <iframe src="bbb.pdf" width="800" height="600"> </iframe>
+
+
+</body>
+</html>
