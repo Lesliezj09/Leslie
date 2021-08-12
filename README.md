@@ -20,7 +20,7 @@ I'm Studying How to Create a HTML 👉
 
 * [HTML Studying Note]( https://lesliezj09.github.io/HTML-Notes/)
 * [HTML Test File](https://lesliezj09.github.io/lesliezh/)
-* [GAMS Learn Note](https://lesliezj09.github.io/Leslie/gamslearn/index.html/)
+* [GAMS Learn Note](https://lesliezj09.github.io/Leslie/gamslearn/)
 
 ****
 
