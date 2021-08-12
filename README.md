@@ -9,40 +9,44 @@
 - 📫 You can reach me by Email：***jianzhang@korea.ac.kr***
 
 <!---
-Lesliezj09/Lesliezj09 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Lesliezj09/Leslie is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
 
 ****
+# 💌 王保保 
+
+![wangbaobao](2021-06-16-12-45-41.png)
+
+
+****
 # HTML 
 
-`HTML Notes`基于[菜鸟教程](https://www.runoob.com/)所提供的HTML相关学习内容的一个笔记
+***HTML Notes***基于[菜鸟教程](https://www.runoob.com/)所提供的HTML相关学习内容的一个笔记
 
 * [HTML Notes](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/)
   * PDF version can be downloaded  👉  [PDF](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/htmllearn.pdf)
 * [HTML Test File](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_html/)
 
 
-
 ****
 # GAMS 
 
-**GAMS Notes**是基于*魏传江和王浩*翻译的书籍**《GAMS用户指南》**，并根据GAMS官方提供的最新版本**[<User's Guide>](https://www.gams.com/latest/docs/gams.pdf)**进行了部分补充
+***GAMS Notes***是基于魏传江和王浩翻译的书籍《GAMS用户指南》，并根据GAMS官方提供的最新版本[<User's Guide>](https://www.gams.com/latest/docs/gams.pdf)进行了部分补充
 
 I'm Studying How to use GAMS Software👉 
 
 * [GAMS Notes](https://lesliezj09.github.io/Leslie/GAMS_Notes/)
 
 
-
 ****
 # Stata
 
 
+****
+# LaTex
 
 
 ****
 
-# 💌 王保保 
 
-![wangbaobao](2021-06-16-12-45-41.png)
