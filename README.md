@@ -14,17 +14,17 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ****
-# HTML Studying
+# HTML 
 
 I'm Studying How to Create a HTML 👉 
 
-* [HTML Studying Note](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md/)
+* [HTML Studying Note](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/)
 * [HTML Test File](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_html/)
 
 
 
 ****
-# GAMS Software Studying
+# GAMS 
 
 I'm Studying How to use GAMS 👉 
 
@@ -33,7 +33,7 @@ I'm Studying How to use GAMS 👉
 
 
 ****
-# Stata Software Studying
+# Stata
 
 I'm Studying How to use Stata 👉 
 
