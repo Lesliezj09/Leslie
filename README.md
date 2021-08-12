@@ -16,9 +16,9 @@ You can click the Preview link to take a look at your changes.
 ****
 # HTML 
 
+`HTML Notes`基于[菜鸟教程](https://www.runoob.com/)所提供的HTML相关学习内容的一个笔记
 
-
-* [HTML Studying Note](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/)
+* [HTML Notes](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/)
   * PDF version can be downloaded  👉  [PDF](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_md_html/htmllearn.pdf)
 * [HTML Test File](https://lesliezj09.github.io/Leslie/HTML_Notes/HTML_html/)
 
@@ -27,9 +27,11 @@ You can click the Preview link to take a look at your changes.
 ****
 # GAMS 
 
+**GAMS Notes**是基于*魏传江和王浩*翻译的书籍**《GAMS用户指南》**，并根据GAMS官方提供的最新版本**[<User's Guide>](https://www.gams.com/latest/docs/gams.pdf)**进行了部分补充
+
 I'm Studying How to use GAMS Software👉 
 
-* [GAMS Learn Note](https://lesliezj09.github.io/Leslie/GAMS_Notes/)
+* [GAMS Notes](https://lesliezj09.github.io/Leslie/GAMS_Notes/)
 
 
 
