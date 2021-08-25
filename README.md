@@ -1,12 +1,12 @@
 # Leslie J. Zhang
 
-- 👋 Hi, I’m [Leslie J. Zhang](https://lesliezj09.github.io/Leslie/profile/)
+- 👋 Hi, I’m <b><i>[Leslie J. Zhang](https://lesliezj09.github.io/Leslie/profile/)</i></b>
 - 🌱 I’m currently studying Economics in [***Department of Economics of Korea University***](http://econ.korea.ac.kr/econ/)
 - 💞️ I major in ***Economics of Development, International Trade, Labor Economics***
 - 👀 I’m interested in ***Economics Growth, Human Capital, Education, Comparative Advantage, Aging***
 <!--- 💞️ I’m looking to collaborate on ...
 --->
-- 📫 You can reach me by Email：***<a href="mailto:jianzhang@korea.ac.kr?Subject=寄给Leslie">jianzhang@korea.ac.kr</a>***
+- 📫 You can reach me by Email：<a href="mailto:jianzhang@korea.ac.kr?Subject=To%20Leslie"><b><i>jianzhang@korea.ac.kr</i></b></a>
 
 <!---
 Lesliezj09/Leslie is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
