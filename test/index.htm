@@ -1,19 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="java.io.*,java.util.*" %>
 <html>
-
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
+<title>访问量统计</title>
 </head>
 <body>
-
 <%
     Integer hitsCount = 
       (Integer)application.getAttribute("hitCounter");
@@ -32,21 +25,5 @@
 <p>页面访问量为: <%= hitsCount%></p>
 
 
-    <video  width="320" height="240" controls="controls" preload="auto" src="test.MP4">
-    </video>
-
-    <audio controls loop autoplay src="rain.MP3"> </audio>
-
-    <audio controls preload="auto">
-        <source src="rain.MP3" type="audio/mp3">
-    </audio>
-
-
-    <embed height="150" width="300"  src="//player.bilibili.com/player.html?aid=291711998&bvid=BV14f4y1j7Vt&cid=369836156&page=1" hidden="false" autostart="true" loop="infinite" >
-
-    <iframe src="//player.bilibili.com/player.html?aid=291711998&bvid=BV14f4y1j7Vt&cid=369836156&page=1" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
 </body>
 </html>
-
-
