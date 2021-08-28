@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leslie J. Zhang</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- use other people's css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/AudioPlayer.css">
+
+    <base target="_blank">
+
+
+    <style type="text/css">
+
+      #player{
+        position:absolute;
+        top: 17.5%; /* 130px */
+        max-width: 420px;
+        height: 50px;
+        border: 1px rgb(168, 163, 163); /* solid */
+
+      }
+
+
+        /* body {background-color: #00ffd5} */
+        h1 {color:red;
+            font-size: xx-large;
+            background-color: blue;
+        }
+
+        h2 {color:orange;}
+
+        #ab
+        { color:orange;
+          background-color:palevioletred
+        }
+
+        p {color:rgb(0, 0, 0);}
+
+        #p1 {background-color: yellow}
+
+        p.normal  {font-style: normal;}
+        p.italic  {font-style: italic;}  /* 斜体 */
+        p.oblique {font-style: oblique;} /* 斜体 */
+
+/*
+        a:link    {color:rgb(17, 17, 206);}
+        a:visited {color:green;}
+        a:hover   {color:red;}
+        a:active  {color:rgb(69, 7, 82);}
+*/
+
+        .myimage1{
+          position:absolute;
+          top: 0;
+          left: 0;
+          width:100%;
+          height: 177.5px; /*27%*/
+          min-width: 300px;
+          z-index:-10;
+          zoom: 1;
+          background-color:#fff;
+          background: url(image/jz1.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -o-background-size: cover;
+          /* background-position: center 0; */
+          background-position: 100% 50%;
+        }
+
+        .myimage2{
+          position:absolute;
+          top: 15%;
+          bottom: 75%;
+          right: 0px;
+
+          width: 100px;;
+          height: 150px; /*27%*/
+          min-width: 240px;
+
+          z-index:-10;
+          zoom: 1;
+
+          background: url(image/jz2.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -o-background-size: cover;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+  <div class="myimage1">
+   <div class="myimage2"> </div>
+  </div>
+
+
+    <br><br><br><br><br><br><br>
+
+
+    <!-- Audio player container-->
+      <div id='player'></div>
+
+    <!-- Audio player js begin-->
+      <script src="js/AudioPlayer.js"></script>
+      <script>
+          // test image for web notifications
+          var iconImage = null;
+
+          AP.init({
+              container:'#player',//a string containing one CSS selector
+              volume   : 0.3,
+              autoPlay : true,
+              notification: false,
+              playList: [
+                  // {'icon': iconImage, 'title': 'Try Everything', 'file': 'mp3/try-everything.mp3'},
+                  // {'icon': iconImage, 'title': 'Let It Go', 'file': 'mp3/let-it-go.mp3'},
+
+                  {'icon': iconImage, 'title': 'when we disco', 'file': 'mp3/when we disco.mp3'},
+                  {'icon': iconImage, 'title': 'Rain and You', 'file': 'mp3/rain.mp3'},
+                  {'icon': iconImage, 'title': 'Aloha', 'file': 'mp3/Aloha.mp3'},
+
+                  {'icon': iconImage, 'title': '父亲写的散文诗', 'file': 'mp3/父亲写的散文诗.mp3'},
+                  {'icon': iconImage, 'title': '故乡山川', 'file': 'mp3/故乡山川.mp3'},
+                  {'icon': iconImage, 'title': '异乡人', 'file': 'mp3/异乡人.mp3'},
+                  {'icon': iconImage, 'title': '假如爱有天意', 'file': 'mp3/假如爱有天意.mp3'}
+
+            ]
+          });
+      </script>
+    <!-- Audio player js end-->
+
+    <br>
+    <br>
+
+    <hr>
+    <p class="oblique"> Welcome... </p> <br>
+    Leslie J. Zhang  (<a href="pdf/cv_test.pdf">CV</a> ) <br>
+    <a href="http://econ.korea.ac.kr/econ/?page_id=51509"> Department of Economics of Korea University </a><br>
+    Email：<a href="#email"> jianzhang@korea.ac.kr </a> <br>
+    Direction: Economics of Development, International Trade, Labor Economics<br>
+
+    <hr>
+
+
+    <h1> 🌐  常用网站 </h1>
+      <h2> KU </h2>
+        <a href="http://econ.korea.ac.kr/econ/?page_id=51509">KU经济系</a> |
+        <a href="https://library.korea.ac.kr">KU图书馆</a> |
+        <a href="https://graduate.korea.ac.kr/grad/index.do">KU一般大学院</a> |
+        <a href="http://korea.ac.kr/mbshome/mbs/university/index.do">KU</a>
+
+      <h2> 论文、书籍下载   </h2>
+        <a href="https://scholar.google.co.kr">Google Scholar</a> |
+        <a href="https://sci-hub.ren">SCI-HUB</a> |
+        <a href="https://www.jiumodiary.com/?plg_nld=1&plg_uin=1&plg_auth=1&plg_nld=1&plg_usr=1&plg_vkey=1&plg_dev=1">鸠摩搜索</a> |
+        <a href="http://libgen.lc">Library Genesis</a> |
+        <a href="https://bbs.pinggu.org">人大经济论坛</a>
+
+      <h2> 资料保存  </h2>
+        <a href="https://koreaoffice-my.sharepoint.com/personal/jianzhang_korea_edu/_layouts/15/onedrive.aspx">OneDrive</a> |
+        <a href="https://www.dropbox.com/home">Dropbox</a> |
+        <a href="https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2F1.%20经济">百度网盘</a>
+    <hr>
+
+
+    <h1>📘 经济学期刊论文网站 </h1>
+      <h2> 经济学国际期刊网站 </h2>
+        <b>五大顶级期刊:</b>
+        <a href="https://www.aeaweb.org/journals/">AER</a> |
+        <a href="https://academic.oup.com/qje">QJE</a> |
+        <a href="https://www.restud.com">RES</a> |
+        <a href="https://www.journals.uchicago.edu/loi/jpe">JPE</a> |
+        <a href="https://www.econometricsociety.org/publications/econometrica/browse">Econometrica</a>
+
+      <h2> 经济学工作论文网站 </h2>
+        National Bureau of Economic Research:  <a href="https://www.nber.org/">NBER</a> <br>
+        RePEc (Research Papers in Economics: <a href="http://repec.org">RePEc</a> <br>
+        <a href="https://ideas.repec.org">IDEAS</a> <br>
+        Institute of Labor Economics：<a href="https://www.iza.org">IZA</a>
+    <hr>
+
+
+    <h1> 🧩  软件与编程学习  </h1>
+      <h2> 统计软件: Stata </h2>
+
+      <h2> 排版软件: LaTex </h2>
+
+      <h2> <a href="file:///Users/wxxxxxt/Desktop/profile/HTML_important/index.htm"> 建模软件: GAMS </a></h2>
+
+      <h2> 编程学习网站 </h2>
+        <a href="https://www.runoob.com">菜鸟教程</a> |
+        <a href="https://www.w3school.com.cn/index.html">W3school</a>
+    <hr>
+
+    <h1> 🔍 视频音乐网站</h1>
+      <h2> 影视 </h2>
+        <a href="https://www.youtube.com">YouTube</a> |
+        <a href="https://www.bilibili.com">Bilibili</a> |
+        <a href="https://www.ifsp.tv">一帆视频</a> |
+        <a href="https://www.olevod.com">欧乐影视</a>
+
+      <h2> 体育 </h2>
+        <a href="http://www.itiyu5.tv">iTiYu 爱体育</a> |
+        <a href="http://livetv.sx/enx/">LIVE TV</a> |
+        <a href="http://hd.nbastream.tv">NBA STREAM</a>
+
+      <h2> 音乐下载 </h2>
+        <a href="https://defcon.cn/dmusic/">音乐搜索器</a> |
+        <a href="https://sacdr.net">易音音乐</a> |
+        <a href="https://sacdr.net">CD包音乐网</a> |
+        <a href="https://www.9ku.com">九酷音乐</a>
+      <hr>
+
+
+
+
+
+    📮 <font color=blcak face=“kai” size=2> &nbsp;  <a id="email">IF YOU HAVE ANY QUESTIONS, CONTACT WITH ME</a></font>
+
+    <form action="MAILTO:jianzhang@korea.ac.kr" method="post" enctype="text/plain">
+        Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&thinsp;<input type="text" name="name" value="Your Name"> <br>
+        E-mail: &nbsp;&nbsp;&thinsp;&thinsp;&nbsp;<input type="text" name="mail" value="Your Email"> <br>
+        Content:&thinsp;&thinsp;&thinsp;&thinsp;&nbsp;<input type="text" name="Content" value="Content" size=""> <br><br>
+
+        &emsp; &emsp; &emsp;  &emsp; <input type="submit" value="发送">   &emsp; <input type="reset" value="重置">
+    </form>
+
+    <hr style="border: 1px solid black;">
+    <!-- <div style="border: 3px solid black;"></div> -->
+
+    <center>
+        <p><font style="background-color: cadetblue;"> Created by Leslie J. Zhang </font></p>
+        <font style="background-color: rgb(226, 226, 220);"> <script src="count.js"></script> </font>
+    </center>
+
+
+
+
+</body>
+</html>
