@@ -1,0 +1,49 @@
+
+
+
+
+<!--下拉按钮的样式-->
+.dropbtn {
+    display: inline-block;
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+
+a {text-decoration: none;}
+
+<!--dropdown 下拉设置-->
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(28, 194, 97, 0.2);
+}
+
+.dropdown-content a {
+    color: rgb(3, 3, 3);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:orange}
+
+
+
