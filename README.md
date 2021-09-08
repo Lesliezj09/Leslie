@@ -44,7 +44,7 @@ I'm Studying How to use GAMS Software👉
 
 
 ****
-# [LaTex](https://lesliezj09.github.io/Leslie/jjjjj/)
+# [LaTex]()
 
 
 ****
