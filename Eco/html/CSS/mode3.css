@@ -1,0 +1,22 @@
+:root {
+    --bg: white;
+  }
+
+  body {
+    background-color: var(--bg);
+  }
+
+  p {
+    color: var(--main);
+  }
+
+  .style1 {
+      border: none;
+      background-color: white;
+      margin-block-start: 10px;
+      margin-block-end: 10px;
+      margin-inline-start: 20px;
+      margin-inline-end: 20px;
+  }
+
+
