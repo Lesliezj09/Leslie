@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mode1</title>
+
+<link rel="stylesheet" href="CSS/liststyle2.css">
+
+
+
+    <style>
+      :root {
+        --accent: #226997;
+        --main: #333;
+        --light: #666;
+        --lighter: #f3f3f3;
+        --border: #e6e6e6;
+        --bg: #ffffff;
+      }
+
+      body {
+        background-color: var(--bg);
+      }
+      p {
+        color: var(--main);
+      }
+      
+      .style1 {
+        border: none;
+        background-color: white;
+        margin-block-start: 10px;
+        margin-block-end: 10px;
+        margin-inline-start: 20px;
+        margin-inline-end: 20px;
+    }
+
+    </style>
+  </head>
+
+
+  <body>
+
+
+
+    <p>
+      this is a test file! <br/>
+      this is a test file! <br/>
+      this is a test file! <br/>
+      this is a test file! <br/>
+      this is a test file! <br/>
+      this is a test file! <br/>
+      this is a test file! <br/>
+      this is a test file! <br/>
+    </p>
+
+
+
+    <button onclick="changeTheme()">change theme</button>
+
+    <button onclick="light()">light</button>
+    <button onclick="dark()">dark</button>
+
+
+
+    <table>
+      <tr>
+        <td>
+          <ul style="list-style-type: none;" >
+            <div class="dropdown">
+              <li> <a href="html/life.htm" class="dropbtn" style="color: white;">Mode</a>
+                  <div class="dropdown-content">
+                    <button onclick="light()" class="style1">Light</button> <br>
+                    <button onclick="dark()"  class="style1">Dark</button>
+                  </div>
+              </li>
+            </div>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+
+
+
+    <script>
+      let theme = "light";
+
+      /*添加暗色主题*/
+      function addDarkTheme() {
+        const link = document.createElement("link");
+        link.id = "theme-css-dark"; // 加上id方便后面好查找到进行删除
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = "CSS/mode1.css";
+        document.querySelector("head").appendChild(link);
+      }
+
+      /* 移除暗色主题*/
+      function removeDarkTheme() {
+        document.querySelector("#theme-css-dark").remove();
+      }
+
+
+      /* 切换主题*/
+      const changeTheme = () => {
+        if (theme === "light") {
+          addDarkTheme();
+          theme = "dark";
+        } else {
+          removeDarkTheme();
+          theme = "light";
+        }
+      }
+
+      const light = () => {
+          removeDarkTheme();
+          theme = "light";
+      }
+
+      const dark = () => {
+          addDarkTheme();
+          theme = "dark";
+      }
+
+
+
+
+
+
+
+
+
+    </script>
+
+  </body>
+</html>
+
