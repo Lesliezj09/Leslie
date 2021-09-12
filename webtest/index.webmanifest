@@ -1,0 +1,18 @@
+{
+  "name": "Chiu Yu Ko",
+  "short_name": "Chiu Yu Ko",
+  "lang": "en-us",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
+  "icons": [{
+    "src": "/images/icon_hu0d0f1c3f4fe2190e7e8ae39cb8f4a753_123445_192x192_fill_lanczos_center_2.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hu0d0f1c3f4fe2190e7e8ae39cb8f4a753_123445_512x512_fill_lanczos_center_2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
