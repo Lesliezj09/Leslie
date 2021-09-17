@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="renderer" content="webkit">
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0" />
+
+  <meta name="author" content="Leslie J. Zhang" />
+
+  <meta name="description" content="PhD Candidate" />
+
+  <link rel="alternate" hreflang="en-us" href="/" />
+
+  <meta name="theme-color" content="#3f51b5" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css"
+    integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css"
+    crossorigin="anonymous" title="hl-light" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css"
+    crossorigin="anonymous" title="hl-dark" disabled />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css"
+    integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"
+    integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap" />
+
+  <link rel="stylesheet" href="css/academic.css" />
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <link rel="alternate" href="index.xml" type="application/rss+xml" title="Leslie J. Zhang" />
+
+  <link rel="manifest" href="index.webmanifest" />
+
+  <link rel="canonical" href="" />
+
+  <meta property="twitter:card" content="summary" />
+
+  <meta property="og:site_name" content="Leslie J. Zhang" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="Leslie J. Zhang" />
+  <meta property="og:description" content="PhD Candidate" />
+  <meta property="og:locale" content="en-us" />
+
+  <meta property="og:updated_time" content="2021-08-29T00:00:00&#43;08:00" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "url": "/"
+    }
+  </script>
+
+  <title>Leslie J. Zhang</title>
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main">
+  <aside class="search-results" id="search">
+    <div class="container">
+      <section class="search-header">
+        <div class="row no-gutters justify-content-between mb-3">
+          <div class="col-6">
+            <h1>Search</h1>
+          </div>
+          <div class="col-6 col-search-close">
+            <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div id="search-box">
+          <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off"
+            autocorrect="off" spellcheck="false" type="search" />
+        </div>
+      </section>
+      <section class="section-search-results">
+        <div id="search-hits"></div>
+      </section>
+    </div>
+  </aside>
+
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container">
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="">Leslie J. Zhang</a>
+      </div>
+
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="">Leslie J. Zhang</a>
+      </div>
+
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+        <ul class="navbar-nav d-md-inline-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="#about" data-target="#about"><span>Home</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="files/cv/cv.pdf"><span>CV</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#featured" data-target="#featured"><span>Research</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="programming/index.html"><span>Programming</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="blog/index.htm"><span>Blog</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="others/others.htm"><span>Others</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" data-target="#contact"><span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search"
+              aria-hidden="true"></i></a>
+        </li>
+
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fas fa-palette" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <span class="js-widget-page d-none"></span>
+
+  <section id="about" class="home-section wg-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div id="profile">
+            <img class="avatar avatar-circle"
+              src="image/author/leslie1.jpg"
+              alt="Leslie J. Zhang" />
+
+            <div class="portrait-title">
+              <h2>Leslie J. Zhang</h2>
+              <h3>PhD Candidate</h3>
+
+              <h3>
+                <span>Korea University</span>
+              </h3>
+            </div>
+
+            <ul class="network-icon" aria-hidden="true">
+              <li>
+                <a href="#contact" >
+                  <i class="fas fa-envelope big-icon"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="files/cv/cv.pdf">
+                  <i class="ai ai-cv big-icon"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-8">
+          <h1>Biography</h1>
+
+          <p style="text-align:justify;">
+            Leslie J. Zhang obtained his B.A. in Korean from the <strong>Jilin University of Finance and Economic</strong> in 2015. He received his M.A. in Economics from <strong>Kyunghee University</strong> in 2017. He is currently  a PhD Candidate in the Department of Economics of <strong>Korea University</strong>.
+          </p>
+
+          <p style="text-align:justify;">
+            His research focuses on <strong>economics growth</strong>,
+            <strong>human capital</strong>,
+            <strong>comparative advantage</strong> and
+            <strong>the aging of the population</strong>.
+            His research has been published in peer-reviewed journals including
+            <em>Journal of Social Science</em>(in Korean).
+          </p>
+<!--
+          <p>
+            His research philosophy is that
+          </p>
+-->
+
+          <div class="row">
+            <div class="col-md-5">
+              <h3>Interests</h3>
+              <ul class="ul-interests">
+                <li>Economics Growth</li>
+
+                <li>Human Capital</li>
+
+                <li>Comparative Advantage</li>
+
+                <li>The Aging</li>
+
+                <li>Development Economics</li>
+
+                <li>Labor economics</li>
+
+                <li>International Trade</li>
+
+              </ul>
+            </div>
+
+            <div class="col-md-7">
+              <h3>Education</h3>
+              <ul class="ul-edu fa-ul">
+                <li>
+                  <i class="fa-li fas fa-graduation-cap"></i>
+                  <div class="description">
+                    <p class="course">PhD Candidate in Economics, 2022</p>
+                    <p class="institution">Korea University</p>
+                  </div>
+                </li>
+
+                <li>
+                  <i class="fa-li fas fa-graduation-cap"></i>
+                  <div class="description">
+                    <p class="course">MA in Economics, 2017</p>
+                    <p class="institution">Kyunghee University</p>
+                  </div>
+                </li>
+
+                <li>
+                  <i class="fa-li fas fa-graduation-cap"></i>
+                  <div class="description">
+                    <p class="course">
+                      BA in Korea, 2015
+                    </p>
+                    <p class="institution">Jilin University of Finance and Economic</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="home-section wg-experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 section-heading">
+          <h1>Position</h1>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="row experience">
+            <div class="col-auto text-center flex-column d-none d-sm-flex">
+              <div class="row h-50">
+                <div class="col">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+              <div class="m-2">
+                <span class="badge badge-pill border exp-fill">&nbsp;</span>
+              </div>
+              <div class="row h-50">
+                <div class="col border-right">&nbsp;</div>
+                <div class="col">&nbsp;</div>
+              </div>
+            </div>
+
+            <div class="col py-2">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title exp-title text-muted mt-0 mb-1">
+                    PhD Candidate
+                  </h4>
+                  <h4 class="card-title exp-company text-muted my-0">
+                    Department of Economics, Korea University
+                  </h4>
+                  <div class="text-muted exp-meta">
+                    Sep. 2017 – Present
+
+                    <span class="middot-divider"></span>
+                    <span>Seoul</span>
+                  </div>
+                  <div class="card-text">
+                    <p>Major:</p>
+                    <ul>
+                      <li>Development Economics</li>
+                    </ul>
+                    <p>Minor:</p>
+                    <ul>
+                      <li>International Economics</li>
+                      <li>Labor Economics</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="featured" class="home-section wg-featured">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 section-heading">
+          <h1>Publication</h1>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="card-simple">
+            <div class="article-metadata">
+              <div>
+                <span>Yoon Seungbi</span>, <span><a href="author/leslie/index.html">Leslie J. Zhang</a></span>
+              </div>
+
+              <span class="article-date"> 2018 </span>
+              <span class="middot-divider"></span>
+              <span class="pub-publication">
+                <em>Journal of Social Science</em>, 44, 2018, 15-37 (in Korean, KCI)
+              </span>
+            </div>
+
+            <a href="publication/JSS/index.html">
+              <img
+                src="image/publication/jss1.png"
+                class="article-banner" alt="Comparison of Income Inequality and Poverty" />
+            </a>
+
+            <h3 class="article-title mb-1 mt-3">
+              <a href="publication/JSS/index.html">
+                  Comparison of Income Inequality and Poverty among One-person House-hold or Two or More-person households
+              </a>
+            </h3>
+
+            <a href="publication/JSS/index.html" class="summary-link">
+              <div class="article-style">
+                <p>
+                  The differences among One-person House-hold or Two or More-person households in Income Inequality and Poverty
+                </p>
+              </div>
+            </a>
+
+            <div class="btn-links">
+              <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+                data-filename="publication/JSS/cite.bib">
+                Cite
+              </button>
+
+              <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002377975"
+                target="_blank" rel="noopener">
+                DOI
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--
+
+  <section id="publications" class="home-section wg-pages">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 section-heading">
+          <h1>Recent Publications</h1>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="alert alert-note">
+            <div>
+              Quickly discover relevant content by
+              <a href="/publication/">filtering publications</a>.
+            </div>
+          </div>
+
+          <div class="media stream-item">
+            <div class="media-body">
+              <h3 class="article-title mb-0 mt-0">
+                <a href="/publication/JSS/">Unified China and Divided Europe</a>
+              </h3>
+
+              <a href="/publication/JSS/" class="summary-link">
+                <div class="article-style">
+                  Severe and unidirectional threat of external invasion
+                  fostered political centralization in China. Europe faced a
+                  wider variety of smaller external threats and remained
+                  politically fragmented. Political centralization in China
+                  led to lower taxation and hence faster population growth
+                  during peacetime than in Europe. China was relatively
+                  fragile in the event of an external invasion.
+                </div>
+              </a>
+
+              <div class="stream-meta article-metadata">
+                <div>
+                  <span><a href="/author/leslie/">Leslie J. Zhang</a></span>, <span>Mak Koyama</span>, <span>Tuan-Hwee
+                    Sng</span>
+                </div>
+              </div>
+
+              <div class="btn-links">
+                <button type="button" class="
+                      btn btn-outline-primary
+                      my-1
+                      mr-1
+                      btn-sm
+                      js-cite-modal
+                    " data-filename="/publication/JSS/cite.bib">
+                  Cite
+                </button>
+
+                <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/iere.12270"
+                  target="_blank" rel="noopener">
+                  DOI
+                </a>
+              </div>
+            </div>
+            <div class="ml-3">
+              <a href="/publication/JSS/">
+                <img
+                  src="/publication/JSS/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_5239076_150x0_resize_q90_lanczos.jpg"
+                  alt="Unified China and Divided Europe" />
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="teaching" class="home-section wg-portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 section-heading">
+          <h1>Teaching</h1>
+        </div>
+        <div class="col-12 col-lg-8">
+          <span class="d-none default-project-filter">*</span>
+
+          <div class="project-toolbar">
+            <div class="project-filters">
+              <div class="btn-toolbar">
+                <div class="btn-group flex-wrap">
+                  <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+
+                  <a href="#" data-filter=".js-id-Undergraduate" class="btn btn-primary btn-lg">Undergraduate</a>
+
+                  <a href="#" data-filter=".js-id-Master" class="btn btn-primary btn-lg">Master</a>
+
+                  <a href="#" data-filter=".js-id-PhD" class="btn btn-primary btn-lg">Ph.D.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="
+                isotope
+                projects-container
+                row
+                js-layout-row
+                project-showcase
+                mt-5
+              ">
+            <div class="col-lg-12 project-item isotope-item js-id-Master">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <h3 class="article-title mb-0 mt-0">
+                    <a href="/teaching/applied-financial-economics/">Applied Financial Economics</a>
+                  </h3>
+
+                  <div class="article-style">
+                    Master (Spring 2017, Spring 2018, Spring 2019, Spring
+                    2020)
+                  </div>
+
+                  <div class="btn-links">
+                    <a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/O7Cvs2fXISE" target="_blank"
+                      rel="noopener">
+                      Video
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 order-first">
+                  <a href="/teaching/applied-financial-economics/">
+                    <img
+                      src="/teaching/applied-financial-economics/featured_hu4ff9ac7315eac1bafd26886b4c0a1731_578558_540x0_resize_q90_lanczos.jpeg"
+                      alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 project-item isotope-item js-id-Undergraduate">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                  <h3 class="article-title mb-0 mt-0">
+                    <a href="/teaching/financial-market-microstructure/">Financial Market Microsturcture</a>
+                  </h3>
+
+                  <div class="article-style">
+                    Undergraduate (Fall 2015, Fall 2016, Fall 2017, Spring
+                    2018, Fall 2018, Spring 2019, Fall 2019)
+                  </div>
+
+                  <div class="btn-links">
+                    <a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/O7Cvs2fXISE" target="_blank"
+                      rel="noopener">
+                      Video
+                    </a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 order-first order-md-2">
+                  <a href="/teaching/financial-market-microstructure/">
+                    <img
+                      src="/teaching/financial-market-microstructure/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_759527_540x0_resize_q90_lanczos.jpg"
+                      alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="book" class="home-section wg-pages">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 section-heading">
+          <h1>Book</h1>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="card-simple">
+            <div class="article-metadata">
+              <div>
+                <span><a href="/author/leslie/">Leslie J. Zhang</a></span>
+              </div>
+
+              <span class="article-date"> Aug 17, 2019 </span>
+            </div>
+
+            <a href="/book/tikz-cookbook/">
+              <img
+                src="/book/tikz-cookbook/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_1729714_918x517_fill_q90_lanczos_center.jpg"
+                class="article-banner" alt="TikZ Cookbook" />
+            </a>
+
+            <h3 class="article-title mb-1 mt-3">
+              <a href="/book/tikz-cookbook/">TikZ Cookbook</a>
+            </h3>
+
+            <a href="/book/tikz-cookbook/" class="summary-link">
+              <div class="article-style">
+                <p>
+                  TikZ is a drawing package in LaTeX. It is very useful to
+                  draw a professional-looking diagram. However, the learning
+                  curve is a little bit steep for a beginner. This is a
+                  cookbook that provides step-by-step illustrations on how to
+                  use TikZ to draw various diagrams in economics.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+  <section id="contact" class="home-section wg-contact">
+    <div class="container">
+      <div class="row contact-widget">
+        <div class="col-12 col-lg-4 section-heading">
+          <h1>Contact</h1>
+        </div>
+        <div class="col-12 col-lg-8">
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+              <span id="person-email"><a href="mailto:jianzhang@korea.ac.kr">jianzhang@korea.ac.kr</a></span>
+            </li>
+
+            <li>
+              <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+              <span id="person-address"> College of political science and economics, Korea University, Seoul, Korea
+              </span>
+            </li>
+          </ul>
+
+          <div class="d-none">
+            <input id="map-provider" value="2" />
+            <input id="map-lat" value="37.587" />
+            <input id="map-lng" value="127.0305" />
+            <input id="map-dir" value="Department of Economics" />
+            <input id="map-zoom" value="18" />
+            <input id="map-api-key" value="" />
+          </div>
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!---->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"
+    integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+    integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"
+    integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js"
+    integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+
+  <script>
+    const code_highlighting = true
+  </script>
+
+  <script>
+    const isSiteThemeDark = false
+  </script>
+
+  <script>
+    const search_config = {
+      indexURI: 'index.json',
+      minLength: 1,
+      threshold: 0.3,
+    }
+    const i18n = {
+      no_results: 'No results found',
+      placeholder: 'Search...',
+      results: 'results found',
+    }
+    const content_type = {
+      post: 'Posts',
+      project: 'Projects',
+      publication: 'Publications',
+      talk: 'Talks',
+      slides: 'Slides',
+    }
+  </script>
+
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js"
+    integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"
+    integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/'
+          })
+        }
+      })
+    }
+  </script>
+
+  <script src="js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
+
+
+
+
+
+
+
+
+
+  <!---->
+
+
+  <div class="container">
+    <footer class="site-footer">
+
+      <div style="text-align: center;">
+        <p class="powered-by">Copyright © 2021. All Rights Reserved.</p>
+        <p class="powered-by">
+          Powered by the
+          <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a>
+          for
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+        </p>
+      </div>
+
+        <span class="float-right" aria-hidden="true" style="margin-top: -50px;">
+          <a href="#" class="back-to-top">
+            <span class="button_icon" >
+              <i class="fas fa-chevron-up fa-2x"></i>
+            </span>
+          </a>
+        </span>
+    </footer>
+  </div>
+
+
+
+  <div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cite</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <pre><code class="tex hljs"></code></pre>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+            <i class="fas fa-copy"></i> Copy
+          </a>
+          <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+            <i class="fas fa-download"></i> Download
+          </a>
+          <div id="modal-error"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
