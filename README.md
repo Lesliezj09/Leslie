@@ -53,5 +53,5 @@ I'm Studying How to use GAMS Software👉
 # [test](https://lesliezj09.github.io/Leslie/test/)
 
 ****
-[Random](https://lesliezj09.github.io/Leslie/random/)
+[Random](https://github.com/Lesliezj09/Leslie/tree/main/random)
 
