@@ -14,11 +14,19 @@
         button {
             margin-top: 20px;
         }
+
+        .small-text {
+            font-size: 25px;
+        }
+
+        .large-text {
+            font-size: 50px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>随机选择奖品</h1>
+        <h1 class="large-text">随机决策三餐</h1>
 
         <button onclick="selectPrize()">菜单种类</button>
         <select id="prizeSelect">
@@ -36,7 +44,7 @@
     </div>
 
     <div class="container">
-        <button onclick="selectPrize()">点击随机获得饮食</button>
+        <button onclick="selectPrize()" class="small-text">点击随机获得饮食</button>
         <p id="result"></p>
     </div>
 
