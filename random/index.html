@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>随机选择奖品</title>
+    <style>
+        /* CSS样式，用于美化页面布局 */
+        .container {
+            margin: 20px auto;
+            width: 400px;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>随机选择奖品</h1>
+
+        <button onclick="selectPrize()">菜单种类</button>
+        <select id="prizeSelect">
+            <option value="汉堡">汉堡</option>
+            <option value="冷面">冷面</option>
+            <option value="炒面">炒面</option>
+            <option value="牛肉面">牛肉面h</option>
+            <option value="猪排">猪排</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <button onclick="selectPrize()">点击随机获得饮食</button>
+        <p id="result"></p>
+    </div>
+
+
+
+    <script>
+        // JavaScript代码，用于实现随机选择奖品的逻辑
+        function selectPrize() {
+            var select = document.getElementById("prizeSelect");
+            var selectedPrize = select.value;
+
+            if (selectedPrize === "") {
+                document.getElementById("result").textContent = "请点击随机选择饮食。";
+            } else {
+                var prizes = select.getElementsByTagName("option");
+                var randomIndex = Math.floor(Math.random() * prizes.length);
+                var selectedOption = prizes[randomIndex];
+                var selectedPrize = selectedOption.value;
+
+                document.getElementById("result").textContent = "哇哦，这顿饭吃：" + selectedPrize;
+            }
+        }
+    </script>
+</body>
+</html>
