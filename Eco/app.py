@@ -31,7 +31,7 @@ def query_score_by_name(name):
         return f"发生错误: {e}"
 
 # 查询路由
-@app.route('/query', methods=['POST'])
+@app.route('/query', methods=['GET', 'POST'])
 def query():
     if request.method == 'POST':
         query_name = request.form['name']
